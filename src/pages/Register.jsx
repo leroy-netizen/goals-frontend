@@ -9,7 +9,7 @@ const Register = () => {
         passwordConfirm: ''
     })
 
-    const {name, email, password, password2 } = formData;
+    const {name, email, password, passwordConfirm } = formData;
     const onChange =(e) => {
         setFormData((prevState)=> ({
             ...prevState,
