@@ -8,7 +8,6 @@ import { toast } from "react-toastify";
 import { login, reset } from "../features/auth/authSlice";
 import Spinner from "../components/Spinner";
 
-import { FaUser } from "react-icons/fa";
 const Login = () => {
   const [formData, setFormData] = useState({
     email: "",
